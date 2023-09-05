@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@600;700;800;900&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+      <!--  Main Menu -->
+    <div class="container">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+       
+        <a class="navbar-brand" href="#">
+            <img src="/assets/img/Logo.png" width="50"alt="Site Logo">
+            <span class="logo-text">logo</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav m-sm-auto">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Portfolio</a>
+            <a class="nav-item nav-link" href="#">Blog</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+           
+          </div>
+        </div>
+      </nav>
+
+ <!-- search form -->
+<div class="hero"> 
+    <div class="container">
+        <form action="index.html" method="get" class="search-form">
+
+            <div class="form-group" style="flex: 100%;">
+                <i class="fa fa-map-marker"></i>
+                <input type="text" class="form-control" placeholder=" type your destination">
+            </div>
+
+            <div class="form-group">
+                <i class="fa fa-calendar"></i>
+                <input type="text" class="form-control" id="inputCheckIn"  placeholder="Check In">
+            </div>
+
+            <div class="form-group">
+                <i class="fa fa-calendar"></i>
+                <input type="text" class="form-control" id="inputCheckOut"  placeholder="Check Out">
+            </div>
+
+            <div class="form-group">
+                <i class="fa fa-bed"></i>
+                <select class="form-control">
+                    <option value=""> </option>
+                    <option value="1">Rooms 1</option>
+                    <option value="2">Rooms 2</option>
+                    <option value="3">Rooms 3</option>
+                    <option value="4">Rooms 4</option>
+                    <option value="5">Rooms 5</option>
+                    <option value="6">Rooms 6</option>
+                 
+                </select>
+            </div>
+
+
+            <div class="form-group">
+                <i class="fa fa-user" ></i>
+                <select class="form-control"> 
+                    <option value=""></option>
+                    <option value="1"> Adults 1 </option>
+                    <option value="2"> Adults2 </option>
+                    <option value="3">Adults 3</option>
+                    <option value="4"> Adults 4</option>
+                    <option value="5"> Adults 5</option>
+                    <option value="6"> Adults 6</option>
+                   
+                    
+                    </select>
+                </div>
+                
+            <div class="form-group">
+                <i class="fa fa-user"></i>
+                <select class="form-control"> 
+                    <option value=""></option>
+                    <option value="">Cheldern 1</option>
+                    <option value="1">Cheldern 2 </option>
+                    <option value="2"> Cheldern 3</option>
+                    <option value="3">Cheldern 4</option>
+                    <option value="4">Cheldern 4</option>
+                    <option value="5"> Cheldern 5</option>
+                    <option value="6"> Cheldern 6</option>
+                  
+                    
+                    </select>
+                </div>
+
+
+
+            <div class="form-group">
+                 <button type="submit" class="btn btn-primary">Check</button></div>
+           
+        </form>
+        <p class="need-help">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        <a href="#">need-help?</a>
+        </p>
+    </div>
+</div>
+<!-- Subscribe -->
+
+<section class="section-color">
+    <div class="container text-center">
+        <h2 class="section-title"> We are here help you</h2>
+        <p class="section-subtitle">Subscribe</p>
+        <a href="" class="btn btn-white"> Subscribe Newletter </a>
+    </div>
+</section>
+<!-- Services -->
+<section>
+    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 100 100" preserveAspectRatio="none" class="section-down-arrow">
+        <polygon fill="var(--color-primary)" points="0,0 100,0 50,50"> </polygon>
+    </svg>
+
+<div class="container">
+    <div class="row">
+    
+        <article class="article col-lg-4">
+            <i class="fa fa-user article-icon"></i>
+            <h3 class="article-title"></h3>
+            <p>Lorem ipsum dolosicing elit. Molestias atque fugiat in labore aut, illo cor</p>
+            <a href="" class="btn btn-primary btn-fit "> Continue reading</a>
+        </article>  
+        <article class="article col-lg-4">  
+            <i class="fa fa-user article-icon  btn-fit"></i>
+            <h3 class="article-title"></h3>  
+            <p>Lorem ipsum dolosicing elit. M  btn-fitolestias atque fugiat in labore aut, illo cor</p>
+            <a href="" class="btn btn-primary btn-fit "> Continue reading</a>
+        </article>  
+        <article class="article col-lg-4">   
+            <i class="fa fa-user article-icon btn-fit"></i>
+            <h3 class="article-title"></h3>  
+            <p>Lorem ipsum dolosicing elit. M btn-fitolestias atque fugiat in labore aut, illo cor</p>
+            <a href="" class="btn btn-primary btn-fit"> Continue reading</a>
+        </article>
+
+
+
+
+
+    </div>
+</div>
+
+
+</section>
+ <!-- Slider -->
+
+<section class="section-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+            
+                
+             <div class="level-slider">
+
+                <article class="level-slider-items">
+                    <img src="./assets/img/img-01.jpg" alt="">
+                    <div class="level-slider-item-container">
+                        <h3> Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ullam ipsum? Corrupti esse commodi alias ipsum in, numquam similique aspernatur, qui perspiciatis nostrum quo error fugiat obcaecati impedit magnam necessitatibus?</p>
+
+                        <a href="" class="btn btn-primary btn-fit">Lorem ipsum dolor sit amet.</a>
+                    </div>
+                </article>
+
+                <article class="level-slider-items">
+                    <img src="./assets/img/img-02.jpg" alt="">
+                    <div class="level-slider-item-container">
+                        <h3> Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, numquam aspernatur. Dolores itaque, sapiente iure ipsum in rerum, culpa, numquam ex consectetur dolor tempore laborum commodi voluptat
+                            e at modi reprehenderit?</p>
+                        <a href="" class="btn btn-primary btn-fit">Lorem ipsum dolor sit.</a>
+                    </div>
+
+                </article>
+                <article class="level-slider-items">
+                    <img src="./assets/img/img-01.jpg" alt="">
+                    <div class="level-slider-item-container">
+                        <h3> Lorem ipsum dolor sit.</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto perferendis quo possimus deserunt alias ut nulla delectus veniam. Accusamus, soluta aliquam temporibus libero eum iure sequi od
+                            it? Commodi, expedita natus.</p>
+                        <a href="" class="btn btn-primary btn-fit">Lorem ipsum dolor sit.</a>
+                    </div>
+
+                </article>
+                <article class="level-slider-items">
+                    <img src="./assets/img/img-02.jpg"" alt="">
+                    <div class="level-slider-item-container">
+                        <h3> Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, doloribus rerum. Doloremque natus temporibus ex debitis voluptatibus. Incidunt dolorem repudiandae ex quam, quae, fugit ipsam vel cum 
+                            totam ea corrupti?</p>
+                        <a href="" class="btn btn-primary btn-fit">Lorem ipsum dolor sit.</a>
+                    </div>
+                </article>
+                <article class="level-slider-items">
+                    <img src="./assets/img/img-01.jpg"" alt="">
+                    <div class="level-slider-item-container">
+                        <h3> Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium autem assumenda consequuntur suscipit. Minima voluptatem nesciunt quo modi, atque, asperiores quibusdam quod voluptates, adipisci voluptate facere tempor
+                            e ad? Accusamus, porro.</p>
+                        <a href="" class="btn btn-primary btn-fit">Lorem ipsum dolor sit.</a>
+                    </div>
+                </article>
+                <article class="level-slider-items">
+                    <img src="./assets/img/img-01.jpg"" alt="">
+                    <div class="level-slider-item-container">
+                        <h3> Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, accusamus fugiat quos mollitia, doloribus magni sequi culpa perferendis sit explicabo eveniet delectus cum
+                            que eius alias! Ullam accusantium quis facere laborum?</p>
+                        <a href="" class="btn btn-primary btn-fit"></a>
+                    </div>
+                </article>
+                <article class="level-slider-items">
+                    <img src="./assets/img/img-01.jpg"" alt="">
+                    <div class="level-slider-item-container">
+                        <h3> Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, accusamus fugiat quos mollitia, doloribus magni sequi culpa perferendis sit explicabo eveniet delectus cum
+                            que eius alias! Ullam accusantium quis facere laborum?</p>
+                        <a href="" class="btn btn-primary btn-fit"></a>
+                    </div>
+                </article>
+                <article class="level-slider-items">
+                    <img src="./assets/img/img-01.jpg"" alt="">
+                    <div class="level-slider-item-container">
+                        <h3> Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, accusamus fugiat quos mollitia, doloribus magni sequi culpa perferendis sit explicabo eveniet delectus cum
+                            que eius alias! Ullam accusantium quis facere laborum?</p>
+                        <a href="" class="btn btn-primary btn-fit"></a>
+                    </div>
+                </article>
+             </div>
+
+
+
+
+
+
+
+
+
+                
+            </div>
+            <div class="col-lg-4">
+              
+                
+
+                <div class="star-places">
+                    <div class="star-places-header">
+                        <h3> Recommended Places</h3>
+                        <p>Places thaat we recommend for you</p>
+                    </div>
+
+                    <div class="star-places-body">
+                        <a href="#">
+                            <img src="./assets/img/tn-img-01.jpg" alt=" place image">
+                            <h4>Euroupe</h4>
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/tn-img-02.jpg"  place image
+                            <h4>Asia</h4>
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/tn-img-03.jpg"  place image
+                            <h4>Africa</h4>
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/tn-img-04.jpg"  place image
+                            <h4> America</h4>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Viedio -->
+<section class="video">
+    <div class="video-overlay">
+        <i class="fa fa-play-circle video-control-play"></i>
+        <i class="fa fa-pause-circle video-control-pause"></i>
+    </div>
+    <div class="video-container">
+        <video class="level-video">
+            <source src="./assets/ibahim.mp4" type="video/mp4">
+            <source src="./assets/ibahim.ogg" type="video/ogg">
+            <source src="" type="">
+            Your browser dos not support video tag
+        </video>
+        
+    </div>
+</section>
+
+
+<!-- Contant -->
+
+<section>
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <!-- google maps -->
+            <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20982.813325180294!2d39.217483726784835!3d21.614300665911394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d6d3f5de127f%3A0x91c20775f2d7e089!2z2KfZhNmF2LHZiNip2Iwg2KzYr9ip!5e0!3m2!1sar!2ssa!4v1693860012347!5m2!1sar!2ssa" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    </div>
+        <div class="col-lg-6">    <form action="" class="contant-form">
+            <div class="form-group">
+                <input type="text" name="" id="" class="form-control"  placeholder="Name"
+                required>
+                <i class="fa fa-user"></i></div>
+            <div class="form-group">
+                <input type="email" name="" id="" class="form-control" placeholder="Email" required>
+                <i class="fa fa-envelope"></i></div>
+            <div class="form-group">
+                <input type="text" name="" id="" class="form-control" placeholder="Subject" required>
+                <i class="fa fa-book"></i></div>
+            <div class="form-group">
+                <textarea type="text" name="" id="" class="form-control" placeholder="Message" required rows="9"></textarea>
+                <i class="fa fa-commenting"></i></div>
+                <button type="submit" class="btn btn-primary"> Sens Message Noew</button>
+        </form></div>
+    </div>
+    </div>
+</section>
+
+
+
+<!-- footer -->
+<footer class="footer">
+    <div class="container">
+        <p>Copyrights &copy;  design Ibahim.2023</p><br/>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
